@@ -15,6 +15,17 @@ These component modifications have demonstrates promising results in testing:
 
 The updated code has been tested extensivley to be compatible with the CARLA simulation environment. Thus autonmous-driving researchers are encouraged to download the modified components and evaluate these with the CARLA simulator.
 
+RGB component results:
+
+| RGB Backbone        | Overall Loss | Detection Loss | Waypoint Loss | Cross-entropy Loss |
+|---------------------|--------------|----------------|---------------|--------------------|
+| ResNet-50 (Baseline) | **1.0350**      | 0.2765         | 1.6263        | 0.6712             |
+| CSPDarknet53        | 0.8714       | 0.2891         | 1.2934        | 0.6373             |
+| ConvNeXT            | 0.8342       | 0.2743         | 1.2360        | 0.6201             |
+| ResNeXT             | 0.8509       | 0.2802         | 1.2335        | 0.7716             |
+
+
+
 
 
 
