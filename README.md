@@ -9,7 +9,7 @@ As part of this work, 5 modifications are implemented in respect of 3 LMDrive sy
   2. Lidar point cloud encoder
   3. LLM scene reasoning component
 
-These component modifications have demonstrates promising results in testing, either exceeding baseline component performance or obtaining similar results with much less complexity: 
+These component modifications have demonstrated promising results by either exceeding baseline component performance or obtaining similar results with much less complexity: 
 
 RGB component results:
 
