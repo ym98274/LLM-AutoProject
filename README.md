@@ -21,6 +21,14 @@ RGB component results:
 | ResNeXT             | 0.8509       | 0.2802         | **1.2335**        | 0.7716             |
 
 
+Lidar Component results: 
+
+| Lidar Backbone           | Overall Loss | Detection Loss | Waypoint Loss | Cross-entropy Loss |
+|--------------------------|--------------|----------------|---------------|--------------------|
+| PointPillars (Baseline)   | 1.0350       | 0.2765     | 1.6263        | 0.6712         |
+| DGCNN                    | **0.8387**   | **0.2604**     | **1.3956**        | **0.0335**         |
+
+
 The updated code has been tested extensivley to be compatible with the CARLA simulation environment. Thus autonmous-driving researchers are encouraged to download the modified components and evaluate these with the CARLA simulator.
 
 
