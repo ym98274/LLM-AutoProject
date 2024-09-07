@@ -11,7 +11,7 @@ As part of this work, 5 modifications are implemented in respect of 3 LMDrive sy
 
 These component modifications have demonstrated promising results by either exceeding baseline component performance or obtaining similar results with much less complexity: 
 
-RGB component results:
+RGB Component results:
 
 | RGB Backbone        | Overall Loss | Detection Loss | Waypoint Loss | Cross-entropy Loss |
 |---------------------|--------------|----------------|---------------|--------------------|
@@ -27,6 +27,14 @@ Lidar Component results:
 |--------------------------|--------------|----------------|---------------|--------------------|
 | PointPillars (Baseline)   | 1.0350       | 0.2765     | 1.6263        | 0.6712         |
 | DGCNN                    | **0.8387**   | **0.2604**     | **1.3956**        | **0.0335**         |
+
+LLM Component results:
+
+| LLM Backbone            | Overall Loss | Waypoint Loss | Classification Loss |
+|-------------------------|--------------|---------------|---------------------|
+| LLaVA-v1.5 (Baseline)    | **0.943**        | **0.922**         | **0.105**               |
+| GIT                     | 1.179        | 1.126         | 0.264               |
+
 
 
 The updated code has been tested extensivley to be compatible with the CARLA simulation environment. Thus autonmous-driving researchers are encouraged to download the modified components and evaluate these with the CARLA simulator.
