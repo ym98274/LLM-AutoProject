@@ -1,6 +1,6 @@
 ### Designing effective LLM systems for Autonomous driving: towards a paradigm for configuring LLM based end-to-end self-driving architectures
 
-The objective of this work is to help develop a stronger convergence for the development of LLM based end-to-end self driving systems.
+The objective of this work is to help develop stronger convergence for the development of LLM based end-to-end self driving systems.
 
 This system proposed by the [LMDrive drive study](https://github.com/opendilab/LMDrive/tree/main) is adopted as the baseline due to the frequent use of its underlying components in similar LLM based systems.
 
