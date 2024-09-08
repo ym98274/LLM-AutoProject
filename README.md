@@ -1,4 +1,4 @@
-### Designing effective LLM systems for Autonomous driving: towards a paradigm for configuring LLM based end-to-end self-driving architectures
+## Designing effective LLM systems for Autonomous driving: towards a paradigm for configuring LLM based end-to-end self-driving architectures
 
 The objective of this work is to help develop stronger convergence for the development of LLM based end-to-end self driving systems.
 
