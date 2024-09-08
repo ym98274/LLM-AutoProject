@@ -22,6 +22,7 @@ RGB Component results:
 
 
 Lidar Component results: 
+
 Note: The DGCNN architecture was trained with less than half of the samples used to train the PointPillars baseline
 
 | Lidar Backbone           | Overall Loss | Detection Loss | Waypoint Loss | Cross-entropy Loss |
@@ -49,9 +50,11 @@ The model weights are provided together with the modified scripts.
 
 Follow the setup guidance on the [LMDrive repo](https://github.com/opendilab/LMDrive?tab=readme-ov-file#setup) to build the environment.
 
-To commence training ensure the scripts of the original LMDrive system are replaced with the modified scripts. For vision-encoder training, it is only necessary to replace the memufuser.py script. For LLM training, ensure that that the drive.py as well as the memfuser script is replaced. Depending on wheather you wish to train using only a single GPU, you can also use the modified training scripts. 
+To commence training ensure the scripts of the original LMDrive system are replaced with the modified scripts. For vision-encoder training, it is only necessary to replace the memufuser.py script. 
 
-The data parsing script for the vision encoder training works by downloading a selected distr
+For LLM training, ensure that that the `drive.py` as well as the `memfuser.py` script is replaced. Depending on wheather you wish to train using only a single GPU, you can also use the modified training scripts. 
+
+The LMDrive data is arranged in a series of directories with names denoting CARLA towns and wheather conditions. The data parsing script for the vision encoder training operates by downloading a selected list of directories. The 
 
 To use the modified architectures for evalaution on the CARLA simulator, download the model weights and update the path in `leaderboard/scripts/run_evaluation.sh`
 
