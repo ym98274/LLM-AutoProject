@@ -50,7 +50,7 @@ The model weights are provided together with the modified scripts.
 
 Follow the setup guidance on the [LMDrive repo](https://github.com/opendilab/LMDrive?tab=readme-ov-file#setup) to build the environment.
 
-To commence training ensure the scripts of the original LMDrive system are replaced with the modified scripts. For vision-encoder training, it is only necessary to replace the memufuser.py script. 
+To commence training ensure the scripts of the original LMDrive system are replaced with the modified scripts. For vision-encoder training, it is only necessary to replace the `memufuser.py` script. 
 
 For LLM training, ensure that that the `drive.py` as well as the `memfuser.py` script is replaced. Depending on whether you wish to train using only a single GPU, you can also use the modified training scripts. 
 
