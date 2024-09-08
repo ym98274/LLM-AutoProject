@@ -44,11 +44,11 @@ The updated code has been tested extensivley to be compatible with the CARLA sim
 
 The model weights are provided together with the modified scripts.
 
-To commence either training (vision-encoder, LLM fine-tuning), ensure the scripts of the original LMDrive system are replaced with the modified scripts.
+To commence either training (vision-encoder, LLM fine-tuning) or, ensure the scripts of the original LMDrive system are replaced with the modified scripts.
 
 Additional data parsing scripts are provided to help download a selected data distribution.
 
-To use the modified architectures, download the model weights and update the path in `leaderboard/scripts/run_evaluation.sh`
+To use the modified architectures for evalaution on the CARLA simulator, download the model weights and update the path in `leaderboard/scripts/run_evaluation.sh`
 
 
 
