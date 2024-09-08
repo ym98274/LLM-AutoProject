@@ -38,7 +38,7 @@ LLM Component results:
 | GIT                     | 1.179        | 1.126         | 0.264               |
 
 
-The authors of the original LMdrive system note that training for the vision encoder component with the complete dataset took 2-3 days with 8 A100 GPUs with 80GB memory. A similar estimate was provided in respect of the LLM component.
+The authors of the original LMDrive system note that training for the vision encoder component with the complete dataset took 2-3 days with 8 A100 GPUs with 80GB memory. A similar estimate was provided in respect of the LLM component.
 
 To support quick protyping, this work modifies the training scripts to run with a single A100 GPU in a non-distriubuted fashion. These are also provided with model code and weights but can be further adjusted for specific requirements. Additional data parsing scripts are supplied to help download a selected data distribution.
 
@@ -54,7 +54,7 @@ To commence training ensure the scripts of the original LMDrive system are repla
 
 For LLM training, ensure that that the `drive.py` as well as the `memfuser.py` script is replaced. Depending on whether you wish to train using only a single GPU, you can also use the modified training scripts. 
 
-The LMDrive data is arranged in a series of directories with names denoting CARLA towns and wheather conditions. The data parsing script for the vision encoder training operates by downloading a selected list of directories. The parsing script for the LLM component modifies nav_intruction_list.txt to match the downloaded samples.
+The LMDrive data is arranged in a series of directories with names denoting CARLA towns and wheather conditions. The data parsing script for the vision encoder training operates by downloading a selected list of directories. The parsing script for the LLM component modifies `nav_intruction_list.txt` to match the downloaded samples.
 
 To use the modified architectures for evalaution on the CARLA simulator, download the model weights and update the path in `leaderboard/scripts/run_evaluation.sh`
 
