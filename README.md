@@ -54,7 +54,7 @@ To commence training ensure the scripts of the original LMDrive system are repla
 
 For LLM training, ensure that that the `drive.py` as well as the `memfuser.py` script is replaced. Depending on whether you wish to train using only a single GPU, you can also use the modified training scripts. 
 
-The LMDrive data is arranged in a series of directories with names denoting CARLA towns and wheather conditions. The data parsing script for the vision encoder training operates by downloading a selected list of directories. The 
+The LMDrive data is arranged in a series of directories with names denoting CARLA towns and wheather conditions. The data parsing script for the vision encoder training operates by downloading a selected list of directories. The parsing script for the LLM component modifies nav_intruction_list.txt to match the downloaded samples.
 
 To use the modified architectures for evalaution on the CARLA simulator, download the model weights and update the path in `leaderboard/scripts/run_evaluation.sh`
 
