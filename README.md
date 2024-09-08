@@ -39,7 +39,7 @@ LLM Component results:
 
 The authors of the original LMdrive system note that training for the vision encoder component with the complete dataset took 2-3 days with 8 A100 GPUs with 80GB memory. A similar estimate was provided in respect of the LLM component.
 
-To support quick protyping, this work modifies the training scripts to run with a single GPU and in a non-distriubuted fashion. These are also provided with model code and weights but can be further adjusted for specific requirements.
+To support quick protyping, this work modifies the training scripts to run with a single GPU and in a non-distriubuted fashion. These are also provided with model code and weights but can be further adjusted for specific requirements. Additional data parsing scripts are provided to help download a selected data distribution.
 
 The updated code has been tested extensivley to be compatible with the CARLA simulation environment. Thus, autonomous-driving researchers are encouraged to download the modified components and evaluate these with the CARLA simulator.
 
@@ -49,9 +49,9 @@ The model weights are provided together with the modified scripts.
 
 Follow the setup guidance on the [LMDrive repo](https://github.com/opendilab/LMDrive?tab=readme-ov-file#setup) to build the environment.
 
-To commence training ensure the scripts of the original LMDrive system are replaced with the modified scripts. For vision-encoder training, it is only necessary to replace
+To commence training ensure the scripts of the original LMDrive system are replaced with the modified scripts. For vision-encoder training, it is only necessary to replace the memufuser.py script. For LLM training, ensure that that the drive.py as well as the memfuser script is replaced. Depending on wheather you wish to train using only a single GPU, you can also use the modified training scripts. 
 
-Additional data parsing scripts are provided to help download a selected data distribution.
+The data parsing script for the vision encoder training works by downloading a selected distr
 
 To use the modified architectures for evalaution on the CARLA simulator, download the model weights and update the path in `leaderboard/scripts/run_evaluation.sh`
 
