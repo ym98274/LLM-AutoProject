@@ -37,12 +37,16 @@ LLM Component results:
 | LLaVA-v1.5 (Baseline)    | **0.943**        | **0.922**         | **0.105**               |
 | GIT                     | 1.179        | 1.126         | 0.264               |
 
+The basline model with the components descrived in the original paper was also trained and then evaluated using the same type and quantity of data to allow for an accuract evalaution of perfmance changes.
 
 The authors of the original LMDrive system note that training for the vision encoder component with the complete dataset took 2-3 days with 8 A100 GPUs with 80GB memory. A similar estimate was provided in respect of the LLM component.
 
 To support quick protyping, this work modifies the training scripts to run with a single A100 GPU in a non-distriubuted fashion. These are also provided with model code and weights but can be further adjusted for specific requirements. Additional data parsing scripts are supplied to help download a selected data distribution.
 
 The updated code has been tested extensively to be compatible with the CARLA simulation environment. Thus, autonomous-driving researchers are encouraged to download the modified components and evaluate these with the CARLA simulator.
+
+### Model Weights
+
 
 ### Usage instructions
 
