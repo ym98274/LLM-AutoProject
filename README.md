@@ -47,6 +47,16 @@ The project code has been tested extensively to be compatible with the CARLA sim
 
 ### Model Weights
 
+| Sytem Name        | Model weights                                                                                    | 
+|-------------------|--------------------------------------------------------------------------------------------------|
+| ResNet-50 (Baseline)  | [Download](https://mega.nz/file/rEBVyB6Y#dgXbqFi_NPobGUPxGY1horhESU_Cg8P2gpa8Nyp95JY)                                                     | 
+| CSPDarknet53   | [Download](https://mega.nz/file/def456#key2)                                                     |
+| ConvNeXT    | [Download](https://mega.nz/file/ghi789#key3)                                                     |
+| ResNeXT   | [Download](https://mega.nz/file/jkl012#key4)                                                     | 
+| PointPillars (Baseline)    | [Download](https://mega.nz/file/abc123#key1)                                                     | 
+| DGCNN   | [Download](https://mega.nz/file/def456#key2)                                                     |
+| LLaVA-v1.5 (Baseline)     | [Download](https://mega.nz/file/ghi789#key3)                                                     |
+| GIT   | [Download](https://mega.nz/file/jkl012#key4)                                                     | 
 
 ### Usage instructions
 
