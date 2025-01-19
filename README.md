@@ -46,6 +46,10 @@ To support quick protyping, this work modifies the training scripts to run with 
 The project code has been tested extensively to be compatible with the CARLA simulation environment. Thus, autonomous-driving researchers are encouraged to download the modified components and evaluate these with the CARLA simulator.
 
 ### Model Weights
+To easily dilineate performance differences, each modified system was trained with a reduced number of samples which were downloaded with the data distribution/parsing script developed as part of this work. Training and evaluation was conducted by modifying a component and freezing the remaining components to better isolate the source of  performance changes.
+
+The modifications are not expected to exceed the performance of the original LMDrive paper and were designed to identify the best route for development/improvement in line with the objectives of this work. The model weights and checkpoints are thus provided solely for testing and validation of the changes in performance described. Researchers are invited to download these and evaluate them using the default validation or the CARLA simulator. 
+
 
 | Sytem Name        | Model weights                                                                                    | 
 |-------------------|--------------------------------------------------------------------------------------------------|
