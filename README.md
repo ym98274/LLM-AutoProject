@@ -49,14 +49,14 @@ The project code has been tested extensively to be compatible with the CARLA sim
 
 | Sytem Name        | Model weights                                                                                    | 
 |-------------------|--------------------------------------------------------------------------------------------------|
-| ResNet-50 (Baseline)  | [Download](https://mega.nz/file/rEBVyB6Y#dgXbqFi_NPobGUPxGY1horhESU_Cg8P2gpa8Nyp95JY)                                                     | 
-| CSPDarknet53   | [Download](https://mega.nz/file/def456#key2)                                                     |
-| ConvNeXT    | [Download](https://mega.nz/file/ghi789#key3)                                                     |
-| ResNeXT   | [Download](https://mega.nz/file/jkl012#key4)                                                     | 
-| PointPillars (Baseline)    | [Download](https://mega.nz/file/abc123#key1)                                                     | 
-| DGCNN   | [Download](https://mega.nz/file/def456#key2)                                                     |
-| LLaVA-v1.5 (Baseline)     | [Download](https://mega.nz/file/ghi789#key3)                                                     |
-| GIT   | [Download](https://mega.nz/file/jkl012#key4)                                                     | 
+| ResNet-50 (Baseline)  | [Download](https://mega.nz/file/rEBVyB6Y#dgXbqFi_NPobGUPxGY1horhESU_Cg8P2gpa8Nyp95JY)        | 
+| CSPDarknet53   | [Download](https://mega.nz/file/7JRziIZL#zEBlD2LvLHps0eUm4EgfJqBXaaIo8AoN57FmF6-V5ek)               |
+| ConvNeXT    | [Download](https://mega.nz/file/2NJXDaaT#Q8-QhrYUvy1Jy340Rga4VPQrE5K5yMtyhninw-vHerM)                  |
+| ResNeXT   | [Download](https://mega.nz/file/WAxxVAbS#5LHNshQCXPrWApCKOlXo5yhjBeljGmqtPHrhJUGy6_E)                    | 
+| PointPillars (Baseline)    | [Download](https://mega.nz/file/GVwwCLJC#RmWCj9NI3ETSE955qBwDx-yp-yyWwuDki3_QL-7nM8M)   | 
+| DGCNN   | [Download](https://mega.nz/file/aIQgRQgJ#GzoA_rTRjOeGkN1Ol4G9yN0UkUnB6PmwQy1jJ0smjX8)                      |
+| LLaVA-v1.5 (Baseline)     | [Download](https://mega.nz/file/rUJgDbTZ#N2aDzK33b_fvuxPq5y4SWIjQzml4hkQduoOY06nHLys)    |
+| GIT   | [Download](https://mega.nz/file/KNQGQThS#5GF8ht8OUYWPJl0S1ockgQuJV99X45jN6uJ-5yxh0-I)                        | 
 
 ### Usage instructions
 
